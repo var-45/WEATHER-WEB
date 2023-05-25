@@ -1,0 +1,76 @@
+body {
+    background-image: url("day1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7f50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff6347;
+  }
+  
+  .notification {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forecast-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .forecast-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: transparent; /* Modified to be transparent */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .forecast-item h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  
